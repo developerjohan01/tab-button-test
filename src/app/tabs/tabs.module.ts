@@ -6,9 +6,11 @@ import { FormsModule } from '@angular/forms';
 import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
+import {MyTabButtonModule} from "../my-tab-button/my-tab-button.module";
 
 @NgModule({
   imports: [
+    MyTabButtonModule,
     IonicModule,
     CommonModule,
     FormsModule,
